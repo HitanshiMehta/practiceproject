@@ -1,0 +1,1 @@
+from practiceapp.Serializers.PlaceSerializer import PlaceSerializer
