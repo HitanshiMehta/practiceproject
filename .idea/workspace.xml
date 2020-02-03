@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57f618e9-3259-42c4-b319-1e699bace679" name="Default Changelist" comment="" />
+    <list default="true" id="57f618e9-3259-42c4-b319-1e699bace679" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/practiceapp/Serializers/MovieSerializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practiceapp/models/GenreModel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practiceapp/models/MovieModel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practiceapp/views/GenerVIew.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practiceapp/views/GenericAPIView.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practiceapp/views/MovieVIew.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practiceapp/Serializers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/Serializers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practiceapp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practiceapp/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/Serializers/GenerSerializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practiceapp/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practiceapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practiceapp/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/views/__init__.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +28,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XDTb7N0WkazwsxG0289EDM8zU8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -50,10 +68,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="442" y="175" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580646416573">
+    <state x="442" y="175" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580757184360">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="442" y="175" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1580646416573" />
+    <state x="442" y="175" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1580757184360" />
     <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1580664613731">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

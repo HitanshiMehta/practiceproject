@@ -1,1 +1,2 @@
 from practiceapp.Serializers.PlaceSerializer import PlaceSerializer
+from practiceapp.Serializers.MovieSerializer import MovieSerializer
