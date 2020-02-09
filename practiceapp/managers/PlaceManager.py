@@ -9,6 +9,9 @@ class PlaceManager(models.Manager):
         return super(PlaceManager,self).get_queryset().all()
 
     def create(self,**kwargs):
-        kwargs.update({'address':'surat'})
+        #kwargs.update({'address':'mumbai'})
         return super(PlaceManager,self).create(**kwargs)
+
+    def filter_data(self,**kwargs):
+        return super(PlaceManager,self).get_queryset().filter(**kwargs)
 

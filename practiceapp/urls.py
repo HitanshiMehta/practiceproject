@@ -6,5 +6,6 @@ from practiceapp.views.PlaceView import PlaceViews
 
 urlpatterns = [
     path('place/', PlaceViews.as_view()),
+    path('place/<str:pk>', PlaceViews.as_view()),
     path('movie/', MovieDetailsView.as_view()),
 ]

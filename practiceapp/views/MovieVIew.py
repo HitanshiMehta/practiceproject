@@ -24,8 +24,6 @@ class MovieDetailsView(APIView):
         return Response({"Movies": serializer.data})
 
     def post(self,request):
-        print("request",request)
-        print("request data", request.data)
         serializer=MovieSerializer(data=request.data)
         if(serializer.is_valid(raise_exception=True)):
             place_saved=serializer.save()

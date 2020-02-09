@@ -1,6 +1,7 @@
 from django.utils import timezone
 from rest_framework import serializers
 from rest_framework.fields import empty
+from rest_framework.validators import UniqueForYearValidator
 
 from practiceapp.models.MovieModel import Movie
 
@@ -23,6 +24,14 @@ class MovieSerializer(serializers.ModelSerializer):
         """Meta class to map serializer's fields with the model fields."""
         model = Movie
         fields = "__all__"
+        Validators = [
+            UniqueForYearValidator(
+                queryset=Movie.objects.all(),
+                field='title',
+                date_field='release_date',
+                message='You can release only one movie per year.'
+            )
+        ]
 
     def validate(self, data):
         """

@@ -4,7 +4,12 @@
     <list default="true" id="57f618e9-3259-42c4-b319-1e699bace679" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practiceapp/Serializers/MovieSerializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/Serializers/MovieSerializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practiceapp/Serializers/PlaceSerializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/Serializers/PlaceSerializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practiceapp/managers/PlaceManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/managers/PlaceManager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practiceapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practiceapp/views/GenerVIew.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/practiceapp/views/MovieVIew.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/views/MovieVIew.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practiceapp/views/PlaceView.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/views/PlaceView.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
