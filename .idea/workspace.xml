@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="57f618e9-3259-42c4-b319-1e699bace679" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceapp/Serializers/GenerSerializer.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/practiceapp/Serializers/MovieSerializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/Serializers/MovieSerializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceapp/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceapp/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceapp/models/GenreModel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceapp/models/MovieModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/models/MovieModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceapp/views/GenericAPIView.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/practiceapp/views/MovieVIew.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/views/MovieVIew.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

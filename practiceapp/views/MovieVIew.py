@@ -12,15 +12,20 @@ from practiceapp.models.MovieModel import Movie
 class MovieDetailsView(APIView):
 
     def get(self, request,*args, **kwrgs):
-
-        for i in request.GET:
-            key=i
-            
         movie = Movie.objects.all()
-        serializer = MovieSerializer(movie, many=True,fields=('title', key))
+
+        if len(request.GET) != 0:
+            for i in request.GET:
+                key=i
+                serializer = MovieSerializer(movie, many=True, fields=('title', key))
+        else:
+            serializer = MovieSerializer(movie, many=True)
+
         return Response({"Movies": serializer.data})
 
     def post(self,request):
+        print("request",request)
+        print("request data", request.data)
         serializer=MovieSerializer(data=request.data)
         if(serializer.is_valid(raise_exception=True)):
             place_saved=serializer.save()
