@@ -1,19 +1,23 @@
+from django.http import request
 from rest_framework import mixins
 from rest_framework.exceptions import APIException
 from rest_framework.generics import CreateAPIView, GenericAPIView
 from rest_framework.response import Response
+from rest_framework.views import APIView
 
 from practiceapp.Serializers.MovieSerializer import MovieSerializer
 from practiceapp.models.MovieModel import Movie
 
 
-class MovieDetailsView(mixins.CreateModelMixin,GenericAPIView):
-    queryset = Movie.objects.all()
-    serializer_class = MovieSerializer
+class MovieDetailsView(APIView):
 
-    def get(self, *args, **kwrgs):
+    def get(self, request,*args, **kwrgs):
+
+        for i in request.GET:
+            key=i
+            
         movie = Movie.objects.all()
-        serializer = MovieSerializer(movie, many=True)
+        serializer = MovieSerializer(movie, many=True,fields=('title', key))
         return Response({"Movies": serializer.data})
 
     def post(self,request):
