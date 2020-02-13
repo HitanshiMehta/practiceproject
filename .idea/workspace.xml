@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57f618e9-3259-42c4-b319-1e699bace679" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/practiceapp/Serializers/ArticleSerializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practiceapp/Serializers/ProductSerializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practiceapp/models/ArticleModel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practiceapp/models/AuthorMoel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practiceapp/models/ProductModel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practiceapp/views/ArticleView.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practiceapp/views/ProductView.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceapp/Serializers/MovieSerializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/Serializers/MovieSerializer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practiceapp/Serializers/PlaceSerializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/Serializers/PlaceSerializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceapp/managers/PlaceManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/managers/PlaceManager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practiceapp/Serializers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/Serializers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practiceapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practiceapp/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/models/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practiceapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceapp/views/GenerVIew.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceapp/views/MovieVIew.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/views/MovieVIew.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceapp/views/PlaceView.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/views/PlaceView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practiceapp/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/views/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,10 +77,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="84" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1581226142154" />
-    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1580664613731">
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1581612760495">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580664613731" />
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581612760495" />
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1581609003813">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581609003813" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1580641281590">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

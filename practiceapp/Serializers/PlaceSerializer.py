@@ -36,3 +36,4 @@ class PlaceSerializer(serializers.ModelSerializer):
 
 
 
+
