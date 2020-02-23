@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57f618e9-3259-42c4-b319-1e699bace679" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/practiceapp/migrations/0002_auto_20200216_2203.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practiceapp/Serializers/PlaceSerializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/Serializers/PlaceSerializer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practiceapp/Serializers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/Serializers/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practiceapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practiceapp/managers/PlaceManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/managers/PlaceManager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceapp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practiceapp/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practiceapp/migrations/0002_article_author_placeproxy.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/practiceapp/migrations/0003_remove_article_author.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/practiceapp/migrations/0004_productmodel.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/practiceapp/migrations/0005_auto_20200213_2258.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practiceapp/migrations/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/practiceapp/models/PlaceModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/models/PlaceModel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practiceapp/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/models/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practiceapp/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/views/__init__.py" afterDir="false" />
