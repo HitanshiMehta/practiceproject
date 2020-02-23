@@ -34,6 +34,10 @@ class PlaceSerializer(serializers.ModelSerializer):
         ]
         fields = ('id','name','address')
 
+        def create(self,validate_data):
+            print("validate_data",validate_data)
+            return Place.objects.create(**validate_data)
+
 
 
 
