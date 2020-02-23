@@ -5,7 +5,11 @@
     <list default="true" id="57f618e9-3259-42c4-b319-1e699bace679" name="Default Changelist" comment="" />
 
     <list default="true" id="57f618e9-3259-42c4-b319-1e699bace679" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/practiceapp/Serializers/PlaceSerializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/practiceapp/Serializers/PlaceSerializer.py" afterDir="false" />
+>>>>>>> bushra
     </list>
 
     <option name="SHOW_DIALOG" value="false" />
