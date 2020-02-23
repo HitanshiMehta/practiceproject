@@ -18,6 +18,7 @@ class PlaceSerializer(serializers.ModelSerializer):
     name=serializers.CharField(max_length=80,validators=[check_name])
     address=serializers.CharField(validators=[UniqueValidator(queryset=PlaceProxy.objects.get_all())])
 
+    #validator comment
     def validate(self, data):
         if data['name']=="hitanshiii":
             raise serializers.ValidationError("hitanshiii ma be i kem che?")
