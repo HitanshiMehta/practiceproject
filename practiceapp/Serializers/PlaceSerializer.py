@@ -34,6 +34,7 @@ class PlaceSerializer(serializers.ModelSerializer):
         ]
         fields = ('id','name','address')
 
+        #As new member i want to add comment : Dhvani
         #create with manager
         def create(self,validate_data):
             print("validate_data",validate_data)
