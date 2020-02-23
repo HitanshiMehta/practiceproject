@@ -24,7 +24,9 @@ class PlaceSerializer(serializers.ModelSerializer):
             raise serializers.ValidationError("hitanshiii ma be i kem che?")
         return  data
 
+
     #Just to learn how to merge added by chitra
+    #Just to learn how to merge
     class Meta:
         model= Place
         validators = [
@@ -35,8 +37,11 @@ class PlaceSerializer(serializers.ModelSerializer):
         ]
         fields = ('id','name','address')
 
+
         #create with manager added by masters
         #create with manager added by hitanshi
+        #As new member i want to add comment : Dhvani
+        #create with manager
         def create(self,validate_data):
             print("validate_data",validate_data)
             return Place.objects.create(**validate_data)
