@@ -23,7 +23,7 @@ class PlaceSerializer(serializers.ModelSerializer):
             raise serializers.ValidationError("hitanshiii ma be i kem che?")
         return  data
 
-
+    #Just to learn how to merge added by chitra
     class Meta:
         model= Place
         validators = [
