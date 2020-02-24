@@ -1,0 +1,14 @@
+import json
+
+from django.core import serializers
+from django.http import JsonResponse, HttpResponse
+from rest_framework.views import APIView
+from django.contrib.auth.models import User
+
+class UserView(APIView):
+    def get(self,request):
+        UserData = User.objects.filter(username__contains=request.GET.get('username'))
+        data = serializers.serialize('json', list(UserData),fields=('username'))
+        return HttpResponse(data, content_type="application/json")
+
+        # return JsonResponse({"User": list(UserData)})
